@@ -10,7 +10,7 @@ class ApiAdapter(BaseApi):
     def __init__(self) -> None:
         self.openstreetmap_url = "https://nominatim.openstreetmap.org/search"
         self.opensky_url = "https://opensky-network.org/api/states/all?"
-        self.aeroplanes = None
+        self.aeroplanes: dict[str, Any] = {}
 
     def get_aeroplanes(self, country: str) -> None:
         # Headers с user-agent - обязательный параметр при запросе к nominatim.openstreetmap.

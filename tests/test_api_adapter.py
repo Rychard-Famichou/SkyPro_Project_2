@@ -2,13 +2,6 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from models.api_adapter import ApiAdapter
-
-
-@pytest.fixture
-def api_adapter():
-    return ApiAdapter()
-
 
 class TestApiAdapter:
 
