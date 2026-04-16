@@ -23,7 +23,8 @@ dev = [
     "black (>=26.3.1,<27.0.0)",
     "isort (>=8.0.1,<9.0.0)",
     "mypy (>=1.20.0,<2.0.0)",
-    "types-requests (>=2.33.0.20260408,<3.0.0.0)"
+    "types-requests (>=2.33.0.20260408,<3.0.0.0)",
+    "vcrpy (>=8.1.1,<9.0.0)"
 ]
 
 [tool.poetry]
@@ -60,7 +61,8 @@ pythonpath = ["src"]
 testpaths = ["tests"]
 
 [[tool.mypy.overrides]]
-module = "tests.*"
+module = ["tests.*", "vcr.*"]
+ignore_missing_imports = true
 disallow_untyped_defs = false
 
 [tool.coverage.report]
