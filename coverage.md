@@ -1,0 +1,22 @@
+| Name                               |    Stmts |     Miss |   Cover |
+|----------------------------------- | -------: | -------: | ------: |
+| src\\\_\_init\_\_.py               |        0 |        0 |    100% |
+| src\\aeroplane\\\_\_init\_\_.py    |        0 |        0 |    100% |
+| src\\aeroplane\\aeroplane.py       |       31 |        0 |    100% |
+| src\\aeroplane\\aeroplane\_data.py |       29 |        1 |     97% |
+| src\\api\\\_\_init\_\_.py          |        0 |        0 |    100% |
+| src\\api\\api\_nominatim.py        |       21 |        4 |     81% |
+| src\\api\\api\_opensky.py          |       16 |        1 |     94% |
+| src\\api\\base\_api.py             |       19 |        2 |     89% |
+| src\\config.py                     |        3 |        0 |    100% |
+| src\\file\\\_\_init\_\_.py         |        0 |        0 |    100% |
+| src\\file\\base\_file.py           |       22 |        6 |     73% |
+| src\\file\\file\_json.py           |       72 |        0 |    100% |
+| src\\file\\file\_sql.py            |        3 |        3 |      0% |
+| src\\main.py                       |        4 |        4 |      0% |
+| src\\models\\\_\_init\_\_.py       |        0 |        0 |    100% |
+| src\\models\\app.py                |      169 |       52 |     69% |
+| src\\models\\message\_key.py       |       37 |        0 |    100% |
+| src\\models\\user\_connector.py    |        6 |        2 |     67% |
+| src\\models\\utils.py              |       53 |        4 |     92% |
+| **TOTAL**                          |  **485** |   **79** | **84%** |

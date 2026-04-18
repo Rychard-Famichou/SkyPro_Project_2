@@ -1,0 +1,82 @@
+[
+    {
+        "callsign": "AXE6809",
+        "country": "Slovakia",
+        "longitude": -19.407,
+        "latitude": 63.4976,
+        "baro_altitude": 10751.82,
+        "velocity": 218.58
+    },
+    {
+        "callsign": "BAW1269",
+        "country": "United Kingdom",
+        "longitude": -23.5408,
+        "latitude": 65.2197,
+        "baro_altitude": 10050.78,
+        "velocity": 266.9
+    },
+    {
+        "callsign": "FIN8RD",
+        "country": "Denmark",
+        "longitude": -22.1969,
+        "latitude": 64.1181,
+        "baro_altitude": 1866.9,
+        "velocity": 138.16
+    },
+    {
+        "callsign": "ICE67G",
+        "country": "Iceland",
+        "longitude": -20.7903,
+        "latitude": 64.5129,
+        "baro_altitude": 4716.78,
+        "velocity": 169.57
+    },
+    {
+        "callsign": "UAL263",
+        "country": "United States",
+        "longitude": -24.7525,
+        "latitude": 65.0936,
+        "baro_altitude": 11582.4,
+        "velocity": 259.57
+    },
+    {
+        "callsign": "ICE8H",
+        "country": "Iceland",
+        "longitude": -20.3416,
+        "latitude": 64.0916,
+        "baro_altitude": 4572.0,
+        "velocity": 140.06
+    },
+    {
+        "callsign": "ICE84H",
+        "country": "Iceland",
+        "longitude": -22.2835,
+        "latitude": 63.6475,
+        "baro_altitude": 3474.72,
+        "velocity": 164.07
+    },
+    {
+        "callsign": "DAL291",
+        "country": "United States",
+        "longitude": -20.9784,
+        "latitude": 63.8565,
+        "baro_altitude": 11277.6,
+        "velocity": 264.49
+    },
+    {
+        "callsign": "UAL178",
+        "country": "United States",
+        "longitude": -24.4725,
+        "latitude": 65.0148,
+        "baro_altitude": 10965.18,
+        "velocity": 265.99
+    },
+    {
+        "callsign": "EIN953",
+        "country": "Ireland",
+        "longitude": -22.0538,
+        "latitude": 63.61,
+        "baro_altitude": 10972.8,
+        "velocity": 255.32
+    }
+]

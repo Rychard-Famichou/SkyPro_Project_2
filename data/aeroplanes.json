@@ -1,0 +1,98 @@
+[
+    {
+        "callsign": "SAS4788",
+        "country": "Sweden",
+        "longitude": -21.6631,
+        "latitude": 63.8585,
+        "baro_altitude": 5372.1,
+        "velocity": 171.3
+    },
+    {
+        "callsign": "GCK29",
+        "country": "Austria",
+        "longitude": -21.9389,
+        "latitude": 64.1363,
+        "baro_altitude": null,
+        "velocity": 0.51
+    },
+    {
+        "callsign": "AFR22J",
+        "country": "France",
+        "longitude": -22.6442,
+        "latitude": 64.488,
+        "baro_altitude": 10058.4,
+        "velocity": 267.26
+    },
+    {
+        "callsign": "VIR7B",
+        "country": "United Kingdom",
+        "longitude": -20.9497,
+        "latitude": 63.9989,
+        "baro_altitude": 10668,
+        "velocity": 271.99
+    },
+    {
+        "callsign": "AFR84E",
+        "country": "France",
+        "longitude": -16.9307,
+        "latitude": 63.088,
+        "baro_altitude": 10058.4,
+        "velocity": 290.2
+    },
+    {
+        "callsign": "FNA570",
+        "country": "Iceland",
+        "longitude": -21.9547,
+        "latitude": 64.1061,
+        "baro_altitude": 746.76,
+        "velocity": 73.07
+    },
+    {
+        "callsign": "ICE6EZ",
+        "country": "Iceland",
+        "longitude": -17.9265,
+        "latitude": 63.4247,
+        "baro_altitude": 11887.2,
+        "velocity": 224.68
+    },
+    {
+        "callsign": "ICG25",
+        "country": "Iceland",
+        "longitude": -21.522,
+        "latitude": 63.9307,
+        "baro_altitude": 2727.96,
+        "velocity": 85.5
+    },
+    {
+        "callsign": "OCN11",
+        "country": "Germany",
+        "longitude": -23.6131,
+        "latitude": 65.5567,
+        "baro_altitude": 10972.8,
+        "velocity": 257.88
+    },
+    {
+        "callsign": "BAW5EA",
+        "country": "United Kingdom",
+        "longitude": -23.1953,
+        "latitude": 64.0663,
+        "baro_altitude": 11887.2,
+        "velocity": 270.19
+    },
+    {
+        "callsign": "SAS907",
+        "country": "Sweden",
+        "longitude": -23.8791,
+        "latitude": 64.082,
+        "baro_altitude": 10378.44,
+        "velocity": 244.91
+    },
+    {
+        "callsign": "DAL57",
+        "country": "United States",
+        "longitude": -23.09,
+        "latitude": 64.1516,
+        "baro_altitude": 10972.8,
+        "velocity": 258.35
+    }
+]

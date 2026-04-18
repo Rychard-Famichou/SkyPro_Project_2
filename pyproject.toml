@@ -1,0 +1,71 @@
+[project]
+name = "skypro-project-2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Rychard",email = "rychard.famichou@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.33.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.3,<10.0.0)",
+    "pytest-cov (>=7.1.0,<8.0.0)",
+    "flake8 (>=7.3.0,<8.0.0)",
+    "black (>=26.3.1,<27.0.0)",
+    "isort (>=8.0.1,<9.0.0)",
+    "mypy (>=1.20.0,<2.0.0)",
+    "types-requests (>=2.33.0.20260408,<3.0.0.0)",
+    "vcrpy (>=8.1.1,<9.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.black]
+line-length = 119
+target-version = ['py312']
+exclude = '''
+/(
+    \.git
+    | __pycache__
+)/
+'''
+
+[tool.isort]
+line_length = 119
+
+[tool.mypy]
+# Позволяет mypy правильно сопоставлять пути к модулям
+explicit_package_bases = true
+# Указываем mypy искать модули в папке src
+mypy_path = "src"
+python_version = "3.12"
+strict = true
+disallow_untyped_defs = true
+warn_return_any = true
+warn_unused_configs = true
+exclude = ["venv", ".venv"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=src --cov-report=term-missing --cov-report=markdown"
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[[tool.mypy.overrides]]
+module = ["tests.*", "vcr.*"]
+ignore_missing_imports = true
+disallow_untyped_defs = false
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:"
+]
